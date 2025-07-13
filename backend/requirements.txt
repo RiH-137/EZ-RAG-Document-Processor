@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+langchain
+langchain-community
+langchain-core
+groq
+PyPDF2
+python-dotenv
+tiktoken
+faiss-cpu
+sentence-transformers
+charset-normalizer
+numpy

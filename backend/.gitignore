@@ -39,7 +39,7 @@ myEnv/
 # Uploads
 uploads/
 *.pdf
-*.txt
+
 
 # Logs
 *.log
