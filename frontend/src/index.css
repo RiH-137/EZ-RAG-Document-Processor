@@ -1,1 +1,73 @@
 @import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: 
+    /* Circuit board pattern */
+    radial-gradient(circle at 20% 80%, rgba(0, 255, 160, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(0, 255, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 40% 40%, rgba(0, 200, 255, 0.05) 0%, transparent 30%),
+    /* Circuit lines */
+    repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 100px,
+      rgba(0, 255, 160, 0.03) 101px,
+      rgba(0, 255, 160, 0.03) 102px,
+      transparent 103px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 100px,
+      rgba(0, 255, 255, 0.03) 101px,
+      rgba(0, 255, 255, 0.03) 102px,
+      transparent 103px
+    ),
+    /* Base dark background */
+    linear-gradient(135deg, #000000 0%, #0a0a0a 25%, #000000 50%, #0a0a0a 75%, #000000 100%);
+  font-family: 'Courier New', 'Monaco', 'Menlo', monospace;
+  overflow-x: hidden;
+  color: #00ff80;
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Circuit board overlay effect */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    /* Circuit nodes */
+    radial-gradient(circle at 25% 25%, rgba(0, 255, 160, 0.4) 1px, transparent 1px),
+    radial-gradient(circle at 75% 25%, rgba(0, 255, 255, 0.4) 1px, transparent 1px),
+    radial-gradient(circle at 25% 75%, rgba(0, 255, 255, 0.4) 1px, transparent 1px),
+    radial-gradient(circle at 75% 75%, rgba(0, 255, 160, 0.4) 1px, transparent 1px);
+  background-size: 200px 200px;
+  background-position: 0 0, 0 0, 0 0, 0 0;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.6;
+  animation: circuit-pulse 4s ease-in-out infinite;
+}
+
+@keyframes circuit-pulse {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}
