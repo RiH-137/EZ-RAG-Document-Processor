@@ -1,7 +1,8 @@
 import axios from 'axios';
 
 // Base URL for the FastAPI backend
-const BASE_URL = 'http://127.0.0.1:8000';
+// const BASE_URL = 'http://127.0.0.1:8000';
+const BASE_URL ='https://ez-backend-ppz7.onrender.com';
 
 // Create axios instance with default config
 const api = axios.create({

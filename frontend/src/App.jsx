@@ -33,7 +33,7 @@ function App() {
     const result = await apiService.healthCheck()
     setIsBackendConnected(result.success)
     if (!result.success) {
-      showAlertMessage('Backend connection failed. Please ensure the FastAPI server is running on port 8000.', 'error')
+      showAlertMessage('Backend connection failed.', 'error')
     }
   }
 
