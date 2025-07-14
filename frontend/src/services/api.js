@@ -1,10 +1,10 @@
 import axios from 'axios';
 
 // Base URL for the FastAPI backend
-const BASE_URL = 'https://ez-rag-document-processor-backend-2.vercel.app/';
+// const BASE_URL = 'https://ez-rag-document-processor-backend-2.vercel.app/';
 
 // const BASE_URL = process.env.REACT_APP_BASE_URL;
-// const BASE_URL = 'http://localhost:8000';
+const BASE_URL = 'http://localhost:8000';
 
 // Create axios instance with default config
 const api = axios.create({
