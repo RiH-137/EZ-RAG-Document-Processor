@@ -135,3 +135,21 @@ The frontend will be available at: http://localhost:5173
 - RAG implementation using document chunking and vector embeddings
 - Circuit-themed UI with dark mode design
 - Real-time status monitoring and error handling
+
+## POSTMAN Report
+[Postman Collection](https://cohortlab-job-portal.postman.co/workspace/CohortLab-Job-portal-Workspace~5f720074-83d8-4b59-891e-9bd4effc3745/collection/27539320-35da9efd-d99f-4fec-9600-818c6ed12ad7?action=share&creator=27539320)
+
+
+
+#### Postman Dumps [Img]
+<img width="1362" height="955" alt="image" src="https://github.com/user-attachments/assets/953ca2ad-09e4-42b9-8091-925c614bfa33" />
+<img width="1333" height="1054" alt="image" src="https://github.com/user-attachments/assets/058fa5a5-006d-4b2d-8cec-28937a3fbc88" />
+<img width="1349" height="1067" alt="image" src="https://github.com/user-attachments/assets/307b4aa7-d239-42ac-b44f-5aa7a62dcda6" />
+<img width="1344" height="1055" alt="image" src="https://github.com/user-attachments/assets/c0e71a79-70ba-498e-b178-0a442b3c2fa0" />
+<img width="1370" height="1044" alt="image" src="https://github.com/user-attachments/assets/54943610-dcd2-48bf-9ab1-74f2a5f693c8" />
+<img width="1386" height="917" alt="image" src="https://github.com/user-attachments/assets/675b18f9-36a4-4236-a1a4-d7bb6d2e901b" />
+
+
+
+
+

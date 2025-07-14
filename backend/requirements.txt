@@ -13,3 +13,4 @@ faiss-cpu
 sentence-transformers
 charset-normalizer
 numpy
+mangum
